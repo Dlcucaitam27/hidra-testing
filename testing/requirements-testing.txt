@@ -1,4 +1,0 @@
-# Dependencias SOLO para testing (no las mezcles con requirements.txt de la app)
-faker==22.6.0
-playwright==1.41.2
-streamlit==1.31.0
