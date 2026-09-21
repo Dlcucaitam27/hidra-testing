@@ -1,0 +1,10 @@
+[global]
+# Varios selectbox pasan index= y key= a la vez; al precargar valores por
+# session_state (borrador o documento) Streamlit mostraba un aviso redundante.
+disableWidgetStateDuplicationWarning = true
+
+[server]
+fileWatcherType = "none"
+
+[client]
+toolbarMode = "minimal"
